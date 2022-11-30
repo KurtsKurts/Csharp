@@ -1,0 +1,15 @@
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/bin/Debug/net7.0/task0
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/bin/Debug/net7.0/task0.deps.json
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/bin/Debug/net7.0/task0.runtimeconfig.json
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/bin/Debug/net7.0/task0.dll
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/bin/Debug/net7.0/task0.pdb
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/task0.csproj.AssemblyReference.cache
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/task0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/task0.AssemblyInfoInputs.cache
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/task0.AssemblyInfo.cs
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/task0.csproj.CoreCompileInputs.cache
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/task0.dll
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/refint/task0.dll
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/task0.pdb
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/task0.genruntimeconfig.cache
+/Users/kurts/Desktop/GeekBrains/C#practis/task0/obj/Debug/net7.0/ref/task0.dll
