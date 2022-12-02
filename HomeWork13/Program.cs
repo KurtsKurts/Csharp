@@ -10,16 +10,16 @@
 
 Console.WriteLine("Введите число: ");
 int numberA = int.Parse(Console.ReadLine());
-int num = numberA/100;
-if( num == 0)
+int num = numberA / 100;
+if (num == 0)
 {
     Console.WriteLine("Третьей цифры нет");
 }
 else if (num > 0)
 {
-    Console.WriteLine(num%10);
+    Console.WriteLine(num % 10);
 }
 else
 {
-    Console.WriteLine(num%10*-1);
+    Console.WriteLine(num % 10 * -1);
 }
