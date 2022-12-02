@@ -5,7 +5,7 @@
 
 78 -> третьей цифры нет
 
-32679 -> 6*/
+32679 -> 6 */
 
 Console.WriteLine("Введите число: ");
 int numberA = int.Parse(Console.ReadLine());
