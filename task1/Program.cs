@@ -18,3 +18,68 @@
 //	456 -> 6
 //	782 -> 2
 //	918 -> 8
+
+// Напишите программу, которая
+// принимает на вход координаты точки (X и Y),
+// причем X ≠ 0 и Y ≠ 0 и выдаёт номер четверти
+// плоскости, в которой находится эта точка.
+
+// Console.WriteLine("Введите коодринат Х: ");
+// int x = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите коодринат Y: ");
+// int y = int.Parse(Console.ReadLine());
+
+// if (x > 0 & y > 0) Console.WriteLine("I");
+// if (x < 0 & y > 0) Console.WriteLine("II");
+// if (x < 0 & y < 0) Console.WriteLine("III");
+// if (x > 0 & y < 0) Console.WriteLine("IV"); // Работает
+
+// Напишите программу, которая по заданному номеру
+// четверти, показывает диапазон возможных координат
+// точек в этой четверти (x и y).
+
+// Console.WriteLine("Введите номер четверти: ");
+// int qvtr = int.Parse(Console.ReadLine());
+
+// if (qvtr==1 ) Console.WriteLine("x = 0 --> +∞, y = 0 --> +∞ ");
+// if (qvtr==2 ) Console.WriteLine("x = 0 --> -∞, y = 0 --> +∞ ");
+// if (qvtr==3 ) Console.WriteLine("x = 0 --> -∞, y = 0 --> -∞ ");
+// if (qvtr==4 ) Console.WriteLine("x = 0 --> +∞, y = 0 --> -∞ ");  //рабочая
+
+// Напишите программу, которая принимает на вход
+// координаты двух точек и находит расстояние между
+// ними в 2D пространстве.
+// ● A (3,6); B (2,1) -> 5,09
+// ● A (7,-5); B (1,-1) -> 7,21
+
+// Console.WriteLine("Введите координат xA :");
+// int xA = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координат yA :");
+// int yA = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координат xB :");
+// int xB = int.Parse(Console.ReadLine()!);
+// Console.WriteLine("Введите координат yB :");
+// int yB = int.Parse(Console.ReadLine()!);
+
+// double result = Math.Sqrt((xA - xB) * (xA - xB) + (yA - yB) * (yA - yB));
+
+// Console.WriteLine(result); //рабочая
+
+
+// Напишите программу, которая принимает на вход
+// число (N) и выдаёт таблицу квадратов чисел
+// от 1 до N.
+// ● 5 -> 1, 4, 9, 16, 25.
+// ● 2 -> 1,4
+
+// Console.WriteLine("Введите число");
+// int x = int.Parse(Console.ReadLine()!);
+// int num = 1;
+
+// while (x > num)
+// {
+//     int result = num * num;
+//     Console.Write($"{result}, ");
+//     num++;
+// }
+// Console.Write(x * x);  //работает
