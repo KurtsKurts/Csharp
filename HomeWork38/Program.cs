@@ -3,23 +3,24 @@
 
 [3 7 22 2 78] -> 76 */
 
-int[] RandomArray(int size)
+double[] RandomArray(int size)
 {
-    int[] array = new int[size];
+    double[] array = new double[size];
+    Random rnd = new Random();
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(-10, 11);
-        Console.Write(array[i] + " ");
+        array[i] = 50 - rnd.Next(100) + rnd.NextDouble();
+        Console.WriteLine(array[i] + " ");
     }
     return array;
 }
-// RandomArray(8);
+//RandomArray(5);
 
-int MaxMinDiff(int[] arr)
+double MaxMinDiff(double[] arr)
 {
     Console.WriteLine();
-    int min = arr[0];
-    int max = arr[0];
+    double min = arr[0];
+    double max = arr[0];
     
     for (int i = 0; i < arr.Length; i++)
     {
