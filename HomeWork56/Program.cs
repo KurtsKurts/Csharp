@@ -46,15 +46,15 @@ void SumRow(int[,] arrayRowSum)
     for (int i = 0; i < arrayRowSum.GetLength(0); i++)
     {
         int sumRow = 0;
-        for (int j = 0; j < arrayRowSum.GetLength(1) ; j++)
+        for (int j = 0; j < arrayRowSum.GetLength(1); j++)
         {
-            sumRow = sumRow + arrayRowSum[i,j];
+            sumRow = sumRow + arrayRowSum[i, j];
         }
-        if (minSumRow>sumRow)
-            {
-                minSumRow=sumRow;
-                minArrayI = i;
-            }
+        if (minSumRow > sumRow)
+        {
+            minSumRow = sumRow;
+            minArrayI = i;
+        }
     }
     Console.WriteLine($"Минимальная сумма элементов = {minSumRow}");
     Console.WriteLine();
